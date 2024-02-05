@@ -1,0 +1,89 @@
+/* Banner */
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 70px 0;
+}
+
+.banner p {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 38px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #A0A0A0;
+  font-weight: normal;
+  font-size: 27px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+}
+
+.btn-env {
+  text-align: center;
+}
+
+.btn-black {
+  color: white;
+  background-color: rgb(134, 134, 134);
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.btn-black:hover {
+  background-color: rgb(99, 98, 98);
+}
+
+#disclaimer {
+  color: grey;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+/* Adding responsiveness */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
